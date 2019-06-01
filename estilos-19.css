@@ -1,0 +1,119 @@
+body{
+	background: #E6E6E6;
+}
+
+.cabecera{
+	background: orange;
+	margin-bottom: 20px;
+	height: 100px;
+	text-align: center;
+	text-shadow: 5px 5px 5px rgb(70,70,70);
+	overflow: auto;
+}
+
+#icono{
+	height: 98%;
+	float: left;
+	border:1% solid #000;
+}
+
+
+.menu{
+	width: 15.5%;
+	margin-right: 1.5%;
+	padding: 0% 1.5%;
+	background: aqua;
+	float: left;
+	overflow: auto;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	margin-bottom: 5px;
+}
+
+h3{
+	text-shadow: 5px 5px 5px rgb(70,70,70);
+}
+
+.noticias{
+	color: red;
+	width: 55.5%;
+	background: rgb(130,130,130);
+	float: left;
+}
+
+.noticias>div{
+ 	margin:1.5% 1.5% 2% 1.5%;
+	padding: 1.5% 1.5%;
+	background: #fff;
+	color: #000;
+	font-size: medium;
+	font-family: "Homer Simpson";
+}
+
+.noticias img{
+	width: 36%;
+	float: left;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+.segundo{
+	clear: left;
+}
+
+.referencias{
+	background: #75ACEC;
+	float: left;
+	width: 15.5%;
+	padding: 0 1.5%;
+	overflow: auto;
+	margin-left: 1.5%;
+	text-decoration: none;
+}
+
+.referencia li{
+	margin-bottom: 3px;
+}
+
+
+.ini{
+	clear: left;
+	float:right;
+	margin-bottom: 20px;
+	border:none;
+}
+
+.pie{
+	clear: both;
+	background: #000;
+	color: #fff;
+	height: 50px;
+	overflow: auto;
+	text-align: center;
+}
+
+.pie>img{
+	height: 96%;
+	float: right;
+	border:1% solid #000;
+}
+
+.noticias, .referencias, .menu, div, img{
+	border: 1px solid #000;
+}
+
+h3,h4{
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}
+
+
